@@ -1,0 +1,1 @@
+On my page, you can find a wide variety of Python code examples that are especially helpful for beginners. All the codes are simple, easy to understand, and well-structured, making them great for learning the basics of Python. They are mainly intended for personal use and practice, helping newcomers build confidence and improve their programming skills step by step.
