@@ -1,7 +1,7 @@
 import requests
 import base64
 
-API_KEY = "AIzaSyAqmYaKGX8zhH0BQtNcTxbx62IJO6ZIy9w"
+API_KEY = ""
 url = f"https://texttospeech.googleapis.com/v1/text:synthesize?key={API_KEY}"
 
 data = {
@@ -22,3 +22,4 @@ if response.status_code == 200:
     print("Файл сохранен: output.mp3")
 else:
     print("Ошибка:", response.text)
+
