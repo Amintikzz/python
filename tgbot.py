@@ -3,7 +3,7 @@ from telebot import types
 import random
 import time
 
-bot = telebot.TeleBot('8053638404:AAHES7HJp8fVnS_z76b2hJsxp4rUnmf5bUs')
+bot = telebot.TeleBot('')
 
 num1 = 0
 num2 = 0
@@ -56,6 +56,7 @@ def answer(message):
     bot.send_message(message.from_user.id,f'{num1}*{num2}=',reply_markup = markup)
 
 bot.polling(none_stop=True, interval=0)
+
 
 
 
