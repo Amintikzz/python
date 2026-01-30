@@ -1,0 +1,8 @@
+print("Введите первое число")
+a = int(input())
+print("Введите второе число")
+b = int(input())
+print(f"{a} + {b} = {a+b}")
+print(f"{a} - {b} = {a-b}")
+print(f"{a} * {b} = {a*b}")
+print(f"{a} / {b} = {a/b}")
