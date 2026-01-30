@@ -5,7 +5,7 @@ valuta1 = ''
 valuta2 = ''
 summa = 0
 
-bot = telebot.TeleBot('8132968885:AAGAhdzJQBNSwM06cMbbHQ0n6F9zQpSusv4')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def start(message):
@@ -72,3 +72,4 @@ bot.polling(none_stop=True, interval=0)
 
 
     
+
